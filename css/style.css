@@ -1,0 +1,65 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+    background: #f0f0f0;
+}
+
+nav {
+    background: #007bff;
+    padding: 10px;
+    text-align: center;
+}
+
+.logo {
+    height: 40px;
+}
+
+.container {
+    padding: 20px;
+    max-height: 80vh;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.message {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    max-width: 60%;
+}
+
+.left {
+    align-self: flex-start;
+    background-color: #e2ffc7;
+}
+
+.right {
+    align-self: flex-end;
+    background-color: #daf1ff;
+}
+
+.send {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+#messageInp {
+    width: 70%;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.btn {
+    padding: 10px 20px;
+    background: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
